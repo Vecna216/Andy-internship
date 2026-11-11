@@ -80,7 +80,7 @@ function Slider1() {
                   style={{ margin: "0 10px", display: "block" }}
                 >
                   <div className='nft_wrap'>
-                    <Link to={`/item-details`}>
+                    <Link to={`/item-details/${hotCollection.nftId}`}>
                       <img
                         src={hotCollection.nftImage}
                         className='lazy img-fluid'
@@ -90,7 +90,7 @@ function Slider1() {
                     </Link>
                   </div>
                   <div className='nft_coll_pp'>
-                    <Link to={`/author`}>
+                    <Link to={`/author/${hotCollection.authorId}`}>
                       <img
                         className='lazy pp-coll'
                         src={hotCollection.authorImage}
