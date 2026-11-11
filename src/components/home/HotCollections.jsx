@@ -1,4 +1,3 @@
-import react from "react";
 import Slider1 from "./Slider.jsx";
 
 const HotCollections = () => {
