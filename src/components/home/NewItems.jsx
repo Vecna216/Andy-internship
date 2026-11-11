@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Slider2 from "./Slider-new-items.jsx";
 
 const NewItems = () => {

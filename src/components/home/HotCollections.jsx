@@ -1,6 +1,4 @@
-import react, {useState, useEffect} from "react";
-import { Link } from "react-router-dom";
-import axios from "axios";
+import react from "react";
 import Slider1 from "./Slider.jsx";
 
 const HotCollections = () => {
